@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header msg="Jetson Nano REST API"/>
+    <RestApi></RestApi>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import RestApi from './components/RestApi.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    RestApi
   }
 }
 </script>
